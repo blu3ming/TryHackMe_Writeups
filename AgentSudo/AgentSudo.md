@@ -132,6 +132,8 @@
     
 + **We login to SSH with the new credentials.**
 
+    ``ssh james@10.10.33.214``
+
     Now, we have access to the machine.
     
     ![17]
