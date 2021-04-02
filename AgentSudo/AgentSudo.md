@@ -157,7 +157,7 @@
          (ALL, !root) /bin/bash
     ```
     
-    Seeing this, we remember a CVE released in 2019 about a vulnerability on the command sudo. This is the CVE-2019-14287.
+    If we google those permissions, we get information about a CVE released in 2019 about a vulnerability on the command sudo. This is the CVE-2019-14287.
     
     ![19]
     
