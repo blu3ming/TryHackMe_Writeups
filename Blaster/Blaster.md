@@ -23,7 +23,7 @@
     
     There's nothing more we can do here.
     
-+ **If we scan the web service with whatweb, we see that it runs in a IIS Windows Server.**
++ **If we scan the web service with whatweb, we see that it runs in an IIS Windows Server.**
 
     ![4]
     
@@ -91,7 +91,7 @@
     
     ![15]
     
-    We see inormation about the certificate of the executable. We must click on the hyperlink next to "Issued by: label."
+    We see inormation about the certificate of the executable. We must click on the hyperlink next to "Issued by:" label.
     
     ![16]
     
