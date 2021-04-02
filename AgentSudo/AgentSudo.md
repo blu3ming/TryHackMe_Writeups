@@ -77,7 +77,7 @@
     
     We see that the image **cutie.png** contains a ZIP file inside. Let's extract it.
     
-    ``binwalk .e cutie.png``
+    ``binwalk -e cutie.png``
     
     ![12]
     
@@ -124,7 +124,7 @@
     
     It asks us for a password, so we introduce the last word we get (in the previous step, after decode it).
     
-    We see that it extracts a hidden message in a txt file, so we open it.
+    We see that it extracts a hidden message to a txt file, so we open it.
     
     ![16]
     
@@ -138,7 +138,7 @@
     
     We can see the user flag using ls in the current directory.
     
-+ **Now, let's do the privesc. We can use LinPeas, uploading the script to the system with scp (because we know the SSH password of the machine)**
++ **Now, let's do the privesc. We can use LinPeas, uploading the script to the system with scp (because we already know the SSH password)**
 
     ``scp /opt/privilege-escalation-awesome-scripts-suite/linPEAS/linpeas.sh james@10.10.33.214:/dev/shm``
     
@@ -167,7 +167,7 @@
     
 + **When we execute the command, it asks us for the james password; we introduce it and receive a root bash.**
 
-    We can see it in the name of the prompt, and with the command whoami.
+    We can see it in the name of the prompt and with the command whoami.
     
     ![20]
     
