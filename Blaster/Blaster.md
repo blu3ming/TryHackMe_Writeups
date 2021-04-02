@@ -77,7 +77,7 @@
     
     ![13]
     
-+ **We can see too an executable file in the Desktop, called "hhupd".**
++ **We can see an executable file in the Desktop too, called "hhupd".**
 
     If we google it, we can see a CVE as result. The CVE-2019-1388.
     
